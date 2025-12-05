@@ -64,7 +64,7 @@ export default function Header() {
 							{/* Mega Menu */}
 							{isMegaMenuOpen && (
 								<div
-									className='absolute top-full left-0 w-screen max-w-4xl bg-white border border-border rounded-lg shadow-xl mt-2 p-6 z-50'
+									className='absolute top-full left-1/2 transform -translate-x-1/2 w-screen max-w-4xl bg-white border border-border rounded-lg shadow-xl mt-2 p-6 z-50'
 									onMouseEnter={() => setIsMegaMenuOpen(true)}
 									onMouseLeave={() =>
 										setIsMegaMenuOpen(false)

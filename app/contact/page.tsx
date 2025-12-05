@@ -68,7 +68,7 @@ export default function ContactPage() {
 									<h3 className='font-bold text-lg mb-1'>
 										Our Location
 									</h3>
-									<p className='text-white'>
+									<p className='text-gray-700'>
 										123 Industrial Avenue
 										<br />
 										Colombo 00500
@@ -91,7 +91,7 @@ export default function ContactPage() {
 									<h3 className='font-bold text-lg mb-1'>
 										Phone
 									</h3>
-									<p className='text-white'>
+									<p className='text-gray-700'>
 										+94 11 234 5678
 										<br />
 										+94 77 123 4567
@@ -112,7 +112,7 @@ export default function ContactPage() {
 									<h3 className='font-bold text-lg mb-1'>
 										Email
 									</h3>
-									<p className='text-white'>
+									<p className='text-gray-700'>
 										info@ratnacommercial.lk
 										<br />
 										sales@ratnacommercial.lk
@@ -133,7 +133,7 @@ export default function ContactPage() {
 									<h3 className='font-bold text-lg mb-1'>
 										Business Hours
 									</h3>
-									<p className='text-white'>
+									<p className='text-gray-700'>
 										Monday - Friday: 8:00 AM - 6:00 PM
 										<br />
 										Saturday: 9:00 AM - 2:00 PM
