@@ -1,38 +1,70 @@
 import Link from 'next/link';
+import { Wrench, Settings, Factory, Hammer, Wheat } from 'lucide-react';
 import type { Category } from '@/types/product';
 
 interface CategoryCardProps {
-  category: Category;
+	category: Category;
 }
 
-const categoryIcons: Record<string, string> = {
-  'non-ferrous': '🔩',
-  'ferrous': '⚙️',
-  'machinery': '🏭',
-  'tools': '🔧',
-  'feed': '🌾',
+const categoryIcons = {
+	'non-ferrous': Wrench,
+	ferrous: Settings,
+	machinery: Factory,
+	tools: Hammer,
+	feed: Wheat,
 };
 
 export default function CategoryCard({ category }: CategoryCardProps) {
-  return (
-    <Link
-      href={`/products?category=${category.id}`}
-      className="group block bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-xl hover:border-blue-400 transition-all duration-300"
-    >
-      {/* Category Image Placeholder */}
-      <div className="h-40 bg-gradient-to-br from-blue-50 to-slate-100 flex items-center justify-center group-hover:from-blue-100 group-hover:to-slate-200 transition-colors">
-        <span className="text-6xl">{categoryIcons[category.id] || '📦'}</span>
-      </div>
+	const IconComponent =
+		categoryIcons[category.id as keyof typeof categoryIcons] || Wrench;
 
-      {/* Category Info */}
-      <div className="p-5">
-        <h3 className="font-bold text-lg text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
-          {category.name}
-        </h3>
-        <p className="text-sm text-gray-600 line-clamp-2">
-          {category.description}
-        </p>
-      </div>
-    </Link>
-  );
+	return (
+		<Link
+			href={`/products?category=${category.id}`}
+			className='group block bg-white border border-border rounded-xl overflow-hidden hover:shadow-xl hover:border-primary/20 transition-all duration-300 hover:-translate-y-1'
+		>
+			{/* Category Visual */}
+			<div className='relative h-48 bg-gradient-to-br from-primary/5 via-primary/10 to-secondary/5 flex items-center justify-center group-hover:from-primary/10 group-hover:via-primary/15 group-hover:to-secondary/10 transition-all duration-300'>
+				<div className='w-20 h-20 bg-primary/10 rounded-2xl flex items-center justify-center group-hover:bg-primary/20 group-hover:scale-110 transition-all duration-300'>
+					<IconComponent
+						className='text-primary'
+						size={40}
+					/>
+				</div>
+
+				{/* Subtle Pattern Overlay */}
+				<div className='absolute inset-0 opacity-[0.03]'>
+					<div className='w-full h-full bg-[radial-gradient(circle_at_50%_50%,currentColor,transparent_50%)]'></div>
+				</div>
+			</div>
+
+			{/* Category Info */}
+			<div className='p-6'>
+				<h3 className='font-bold text-xl text-foreground mb-3 group-hover:text-primary transition-colors'>
+					{category.name}
+				</h3>
+				<p className='text-muted-foreground leading-relaxed line-clamp-3'>
+					{category.description}
+				</p>
+
+				{/* Call to Action */}
+				<div className='mt-4 flex items-center text-primary font-medium text-sm group-hover:text-primary/80 transition-colors'>
+					<span>Explore Products</span>
+					<svg
+						className='ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform'
+						fill='none'
+						stroke='currentColor'
+						viewBox='0 0 24 24'
+					>
+						<path
+							strokeLinecap='round'
+							strokeLinejoin='round'
+							strokeWidth={2}
+							d='M9 5l7 7-7 7'
+						/>
+					</svg>
+				</div>
+			</div>
+		</Link>
+	);
 }
