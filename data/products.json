@@ -1,0 +1,288 @@
+{
+  "categories": [
+    {
+      "id": "non-ferrous",
+      "name": "Non-Ferrous Metals",
+      "slug": "non-ferrous-metals",
+      "description": "High-grade aluminum, copper, brass, and bronze products for industrial applications",
+      "image": "/images/categories/non-ferrous.jpg"
+    },
+    {
+      "id": "ferrous",
+      "name": "Ferrous Metals",
+      "slug": "ferrous-metals",
+      "description": "Premium steel, iron, and alloy metals for construction and manufacturing",
+      "image": "/images/categories/ferrous.jpg"
+    },
+    {
+      "id": "machinery",
+      "name": "Machinery",
+      "slug": "machinery",
+      "description": "Industrial machinery and equipment for various sectors",
+      "image": "/images/categories/machinery.jpg"
+    },
+    {
+      "id": "tools",
+      "name": "Tools & Hardware",
+      "slug": "tools-hardware",
+      "description": "Professional-grade tools and hardware supplies",
+      "image": "/images/categories/tools.jpg"
+    },
+    {
+      "id": "feed",
+      "name": "Animal Feed",
+      "slug": "animal-feed",
+      "description": "Quality feed products for livestock and poultry",
+      "image": "/images/categories/feed.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "alu-sheet-1",
+      "name": "Aluminum Sheet 6061-T6",
+      "category": "non-ferrous",
+      "slug": "aluminum-sheet-6061-t6",
+      "shortDescription": "Premium aluminum alloy sheet with excellent corrosion resistance",
+      "description": "6061-T6 aluminum sheet is one of the most versatile heat-treatable aluminum alloys. It offers excellent mechanical properties and exhibits good weldability. Widely used in aerospace, marine, and structural applications.",
+      "specs": {
+        "Grade": "6061-T6",
+        "Thickness Range": "0.5mm - 50mm",
+        "Width": "1000mm - 2500mm",
+        "Length": "2000mm - 6000mm",
+        "Tensile Strength": "310 MPa",
+        "Surface Finish": "Mill finish, Anodized"
+      },
+      "useCases": [
+        "Aircraft components",
+        "Marine fittings",
+        "Structural frames",
+        "Automotive parts"
+      ],
+      "image": "/images/products/aluminum-sheet.jpg",
+      "datasheetUrl": "/datasheets/aluminum-6061-t6.pdf"
+    },
+    {
+      "id": "copper-rod-1",
+      "name": "Copper Rod C11000",
+      "category": "non-ferrous",
+      "slug": "copper-rod-c11000",
+      "shortDescription": "High-conductivity copper rods for electrical applications",
+      "description": "C11000 electrolytic tough pitch copper rods with 99.9% purity. Ideal for electrical conductors, bus bars, and various industrial applications requiring high thermal and electrical conductivity.",
+      "specs": {
+        "Grade": "C11000 (ETP Copper)",
+        "Diameter Range": "5mm - 200mm",
+        "Length": "Up to 6000mm",
+        "Purity": "99.9% Cu",
+        "Conductivity": "≥101% IACS",
+        "Temper": "Soft, Half Hard, Hard"
+      },
+      "useCases": [
+        "Electrical bus bars",
+        "Conductor cables",
+        "Heat exchangers",
+        "Electrical terminals"
+      ],
+      "image": "/images/products/copper-rod.jpg",
+      "datasheetUrl": "/datasheets/copper-c11000.pdf"
+    },
+    {
+      "id": "steel-bar-1",
+      "name": "Mild Steel Round Bar",
+      "category": "ferrous",
+      "slug": "mild-steel-round-bar",
+      "shortDescription": "Versatile mild steel bars for construction and fabrication",
+      "description": "High-quality mild steel round bars with excellent machinability and weldability. Suitable for a wide range of construction, engineering, and manufacturing applications.",
+      "specs": {
+        "Grade": "ASTM A36 / EN S275",
+        "Diameter Range": "6mm - 300mm",
+        "Length": "6000mm - 12000mm",
+        "Carbon Content": "≤0.25%",
+        "Tensile Strength": "400-550 MPa",
+        "Surface": "Black, Bright, Peeled"
+      },
+      "useCases": [
+        "Construction frameworks",
+        "Machine parts",
+        "Shafts and axles",
+        "General fabrication"
+      ],
+      "image": "/images/products/steel-bar.jpg",
+      "datasheetUrl": "/datasheets/mild-steel-bar.pdf"
+    },
+    {
+      "id": "stainless-sheet-1",
+      "name": "Stainless Steel Sheet 304",
+      "category": "ferrous",
+      "slug": "stainless-steel-sheet-304",
+      "shortDescription": "Corrosion-resistant stainless steel for demanding environments",
+      "description": "Grade 304 stainless steel sheets offering excellent corrosion resistance, formability, and weldability. The most widely used stainless steel grade for food processing, chemical, and architectural applications.",
+      "specs": {
+        "Grade": "304 / 304L",
+        "Thickness": "0.3mm - 25mm",
+        "Width": "1000mm - 2000mm",
+        "Length": "2000mm - 6000mm",
+        "Finish": "2B, BA, No.4, Hairline",
+        "Chromium": "18-20%",
+        "Nickel": "8-10.5%"
+      },
+      "useCases": [
+        "Food processing equipment",
+        "Kitchen equipment",
+        "Chemical containers",
+        "Architectural cladding"
+      ],
+      "image": "/images/products/stainless-sheet.jpg",
+      "datasheetUrl": "/datasheets/stainless-304.pdf"
+    },
+    {
+      "id": "lathe-machine-1",
+      "name": "Industrial Lathe Machine CNC-2000",
+      "category": "machinery",
+      "slug": "industrial-lathe-machine-cnc-2000",
+      "shortDescription": "Precision CNC lathe for high-volume production",
+      "description": "Heavy-duty CNC lathe machine designed for precision machining operations. Features advanced control systems, high rigidity, and excellent repeatability for demanding manufacturing environments.",
+      "specs": {
+        "Type": "CNC Turning Center",
+        "Swing Over Bed": "400mm",
+        "Distance Between Centers": "2000mm",
+        "Spindle Speed": "50-4000 RPM",
+        "Motor Power": "15 kW",
+        "Control System": "Fanuc 0i-TF",
+        "Accuracy": "±0.005mm"
+      },
+      "useCases": [
+        "Automotive components",
+        "Aerospace parts",
+        "General machining",
+        "High-precision manufacturing"
+      ],
+      "image": "/images/products/lathe-machine.jpg",
+      "datasheetUrl": "/datasheets/lathe-cnc-2000.pdf"
+    },
+    {
+      "id": "welding-machine-1",
+      "name": "MIG Welding Machine 400A",
+      "category": "machinery",
+      "slug": "mig-welding-machine-400a",
+      "shortDescription": "Professional MIG welding equipment for heavy-duty applications",
+      "description": "Industrial-grade MIG welding machine with advanced inverter technology. Provides stable arc performance, excellent weld quality, and energy efficiency for various metal fabrication tasks.",
+      "specs": {
+        "Type": "IGBT Inverter MIG/MAG",
+        "Current Range": "30-400A",
+        "Duty Cycle": "60% @ 400A",
+        "Wire Diameter": "0.8-1.6mm",
+        "Input Voltage": "380V 3-Phase",
+        "Weight": "85 kg",
+        "Protection": "IP23"
+      },
+      "useCases": [
+        "Steel fabrication",
+        "Automotive repair",
+        "Construction equipment",
+        "Manufacturing plants"
+      ],
+      "image": "/images/products/welding-machine.jpg",
+      "datasheetUrl": "/datasheets/mig-welder-400a.pdf"
+    },
+    {
+      "id": "power-drill-1",
+      "name": "Industrial Hammer Drill Pro-HD850",
+      "category": "tools",
+      "slug": "industrial-hammer-drill-pro-hd850",
+      "shortDescription": "Heavy-duty hammer drill for concrete and masonry work",
+      "description": "Professional-grade rotary hammer drill designed for intensive drilling in concrete, brick, and stone. Features powerful motor, anti-vibration system, and durable construction for demanding job sites.",
+      "specs": {
+        "Power": "850W",
+        "Impact Energy": "3.5 Joules",
+        "Drilling Capacity": "Concrete: 26mm, Steel: 13mm, Wood: 30mm",
+        "No-Load Speed": "0-1100 RPM",
+        "Impact Rate": "0-4500 BPM",
+        "Chuck Type": "SDS-Plus",
+        "Weight": "3.2 kg"
+      },
+      "useCases": [
+        "Construction sites",
+        "Masonry work",
+        "Installation projects",
+        "Renovation work"
+      ],
+      "image": "/images/products/hammer-drill.jpg",
+      "datasheetUrl": "/datasheets/hammer-drill-hd850.pdf"
+    },
+    {
+      "id": "wrench-set-1",
+      "name": "Professional Socket Wrench Set 120pc",
+      "category": "tools",
+      "slug": "professional-socket-wrench-set-120pc",
+      "shortDescription": "Comprehensive socket set for maintenance and repair",
+      "description": "Complete 120-piece socket wrench set manufactured from chrome vanadium steel. Includes a wide range of sockets, ratchets, extensions, and accessories for professional automotive and industrial maintenance.",
+      "specs": {
+        "Pieces": "120",
+        "Drive Sizes": "1/4\", 3/8\", 1/2\"",
+        "Material": "Chrome Vanadium Steel",
+        "Socket Range": "4mm - 32mm",
+        "Finish": "Chrome Plated",
+        "Case": "Heavy-duty blow mold",
+        "Standard": "DIN/ISO"
+      },
+      "useCases": [
+        "Automotive maintenance",
+        "Equipment repair",
+        "Manufacturing facilities",
+        "General maintenance"
+      ],
+      "image": "/images/products/socket-set.jpg",
+      "datasheetUrl": "/datasheets/socket-set-120pc.pdf"
+    },
+    {
+      "id": "poultry-feed-1",
+      "name": "Premium Poultry Layer Feed",
+      "category": "feed",
+      "slug": "premium-poultry-layer-feed",
+      "shortDescription": "Balanced nutrition for optimal egg production",
+      "description": "High-quality layer feed formulated to support peak egg production and shell quality. Contains optimal protein levels, calcium, vitamins, and minerals for healthy laying hens.",
+      "specs": {
+        "Type": "Layer Mash/Pellets",
+        "Protein": "16-18%",
+        "Calcium": "3.5-4.0%",
+        "Energy": "2750 kcal/kg",
+        "Fiber": "≤5%",
+        "Packaging": "50kg bags",
+        "Shelf Life": "6 months"
+      },
+      "useCases": [
+        "Commercial egg production",
+        "Layer farms",
+        "Backyard poultry",
+        "Organic farming"
+      ],
+      "image": "/images/products/poultry-feed.jpg",
+      "datasheetUrl": "/datasheets/layer-feed.pdf"
+    },
+    {
+      "id": "cattle-feed-1",
+      "name": "Dairy Cattle Concentrate Feed",
+      "category": "feed",
+      "slug": "dairy-cattle-concentrate-feed",
+      "shortDescription": "High-energy feed for dairy cattle productivity",
+      "description": "Specially formulated concentrate feed designed to maximize milk production in dairy cattle. Rich in protein, energy, and essential nutrients to support lactation and overall health.",
+      "specs": {
+        "Type": "Cattle Concentrate",
+        "Protein": "20-24%",
+        "Fat": "3-5%",
+        "Fiber": "8-12%",
+        "Energy": "3000 kcal/kg",
+        "Packaging": "50kg bags, Bulk",
+        "Form": "Pellets"
+      },
+      "useCases": [
+        "Dairy farms",
+        "Milk production",
+        "High-yielding cattle",
+        "Commercial dairy operations"
+      ],
+      "image": "/images/products/cattle-feed.jpg",
+      "datasheetUrl": "/datasheets/cattle-concentrate.pdf"
+    }
+  ]
+}
