@@ -92,17 +92,17 @@ export default async function ProductPage({ params }: ProductPageProps) {
 							</p>
 
 							{/* Download Datasheet */}
-							<a
+							{/* <a
 								href={product.datasheetUrl}
 								className='inline-flex items-center gap-2 bg-gray-100 hover:bg-gray-200 px-6 py-3 rounded-lg font-semibold transition-colors'
 							>
 								<Download size={20} />
 								Download Datasheet (PDF)
-							</a>
+							</a> */}
 						</div>
 
 						{/* Specifications */}
-						<div className='bg-white rounded-lg p-8 mb-8'>
+						<div className='bg-white rounded-lg p-8 mb-8 text-black'>
 							<h2 className='text-2xl font-bold mb-6'>
 								Technical Specifications
 							</h2>
@@ -126,7 +126,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 						</div>
 
 						{/* Use Cases */}
-						<div className='bg-white rounded-lg p-8'>
+						<div className='bg-white rounded-lg p-8 text-black'>
 							<h2 className='text-2xl font-bold mb-6'>
 								Applications & Use Cases
 							</h2>
@@ -149,7 +149,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 					{/* Sidebar */}
 					<div className='lg:col-span-1'>
 						{/* Request Quote Card */}
-						<div className='bg-white rounded-lg p-6 mb-6 sticky top-24'>
+						<div className='bg-white rounded-lg p-6 mb-6 sticky top-24 text-black'>
 							<h3 className='text-xl font-bold mb-4'>
 								Interested in this product?
 							</h3>

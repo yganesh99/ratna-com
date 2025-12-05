@@ -55,7 +55,7 @@ function ProductsList() {
 				<div className='flex flex-col lg:flex-row gap-8'>
 					{/* Filters Sidebar */}
 					<aside className='lg:w-64 shrink-0'>
-						<div className='bg-white rounded-lg p-6 sticky top-24'>
+						<div className='bg-white rounded-lg p-6 sticky top-24 text-black'>
 							<h2 className='font-bold text-lg mb-4'>
 								Filter by Category
 							</h2>
@@ -105,7 +105,7 @@ function ProductsList() {
 									onChange={(e) =>
 										setSearchQuery(e.target.value)
 									}
-									className='w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'
+									className='w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-gray-900 text-black'
 								/>
 							</div>
 						</div>
